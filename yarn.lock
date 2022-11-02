@@ -562,6 +562,16 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@esbuild/android-arm@0.15.12":
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/@esbuild/android-arm/-/android-arm-0.15.12.tgz#e548b10a5e55b9e10537a049ebf0bc72c453b769"
+  integrity sha1-5UixCl5VueEFN6BJ6/C8csRTt2k=
+
+"@esbuild/linux-loong64@0.15.12":
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/@esbuild/linux-loong64/-/linux-loong64-0.15.12.tgz#475b33a2631a3d8ca8aa95ee127f9a61d95bf9c1"
+  integrity sha1-R1szomMaPYyoqpXuEn+aYdlb+cE=
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -1868,10 +1878,133 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-esbuild@^0.8.49:
-  version "0.8.49"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.49.tgz#3d33f71b3966611f822cf4c838115f3fbd16def2"
-  integrity sha512-itiFVYv5UZz4NooO7/Y0bRGVDGz/M/cxKbl6zyNI5pnKaz1mZjvZXAFhhDVz6rGCmcdTKj5oag6rh8DaaSSmfQ==
+esbuild-android-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-android-64/-/esbuild-android-64-0.15.12.tgz#5e8151d5f0a748c71a7fbea8cee844ccf008e6fc"
+  integrity sha1-XoFR1fCnSMcaf76ozuhEzPAI5vw=
+
+esbuild-android-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-android-arm64/-/esbuild-android-arm64-0.15.12.tgz#5ee72a6baa444bc96ffcb472a3ba4aba2cc80666"
+  integrity sha1-Xucqa6pES8lv/LRyo7pKuizIBmY=
+
+esbuild-darwin-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-darwin-64/-/esbuild-darwin-64-0.15.12.tgz#70047007e093fa1b3ba7ef86f9b3fa63db51fe25"
+  integrity sha1-cARwB+CT+hs7p++G+bP6Y9tR/iU=
+
+esbuild-darwin-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.15.12.tgz#41c951f23d9a70539bcca552bae6e5196696ae04"
+  integrity sha1-QclR8j2acFObzKVSuublGWaWrgQ=
+
+esbuild-freebsd-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-freebsd-64/-/esbuild-freebsd-64-0.15.12.tgz#a761b5afd12bbedb7d56c612e9cfa4d2711f33f0"
+  integrity sha1-p2G1r9Ervtt9VsYS6c+k0nEfM/A=
+
+esbuild-freebsd-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.15.12.tgz#6b0839d4d58deabc6cbd96276eb8cbf94f7f335e"
+  integrity sha1-awg51NWN6rxsvZYnbrjL+U9/M14=
+
+esbuild-linux-32@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-32/-/esbuild-linux-32-0.15.12.tgz#bd50bfe22514d434d97d5150977496e2631345b4"
+  integrity sha1-vVC/4iUU1DTZfVFQl3SW4mMTRbQ=
+
+esbuild-linux-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-64/-/esbuild-linux-64-0.15.12.tgz#074bb2b194bf658245f8490f29c01ffcdfa8c931"
+  integrity sha1-B0uysZS/ZYJF+EkPKcAf/N+oyTE=
+
+esbuild-linux-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-arm64/-/esbuild-linux-arm64-0.15.12.tgz#3bf789c4396dc032875a122988efd6f3733f28f5"
+  integrity sha1-O/eJxDltwDKHWhIpiO/W83M/KPU=
+
+esbuild-linux-arm@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-arm/-/esbuild-linux-arm-0.15.12.tgz#b91b5a8d470053f6c2c9c8a5e67ec10a71fe4a67"
+  integrity sha1-uRtajUcAU/bCycil5n7BCnH+Smc=
+
+esbuild-linux-mips64le@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.15.12.tgz#2fb54099ada3c950a7536dfcba46172c61e580e2"
+  integrity sha1-L7VAma2jyVCnU238ukYXLGHlgOI=
+
+esbuild-linux-ppc64le@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.15.12.tgz#9e3b8c09825fb27886249dfb3142a750df29a1b7"
+  integrity sha1-njuMCYJfsniGJJ37MUKnUN8pobc=
+
+esbuild-linux-riscv64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.15.12.tgz#923d0f5b6e12ee0d1fe116b08e4ae4478fe40693"
+  integrity sha1-kj0PW24S7g0f4RawjkrkR4/kBpM=
+
+esbuild-linux-s390x@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-linux-s390x/-/esbuild-linux-s390x-0.15.12.tgz#3b1620220482b96266a0c6d9d471d451a1eab86f"
+  integrity sha1-OxYgIgSCuWJmoMbZ1HHUUaHquG8=
+
+esbuild-netbsd-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-netbsd-64/-/esbuild-netbsd-64-0.15.12.tgz#276730f80da646859b1af5a740e7802d8cd73e42"
+  integrity sha1-J2cw+A2mRoWbGvWnQOeALYzXPkI=
+
+esbuild-openbsd-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-openbsd-64/-/esbuild-openbsd-64-0.15.12.tgz#bd0eea1dd2ca0722ed489d88c26714034429f8ae"
+  integrity sha1-vQ7qHdLKByLtSJ2IwmcUA0Qp+K4=
+
+esbuild-sunos-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-sunos-64/-/esbuild-sunos-64-0.15.12.tgz#5e56bf9eef3b2d92360d6d29dcde7722acbecc9e"
+  integrity sha1-Xla/nu87LZI2DW0p3N53Iqy+zJ4=
+
+esbuild-windows-32@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-windows-32/-/esbuild-windows-32-0.15.12.tgz#a4f1a301c1a2fa7701fcd4b91ef9d2620cf293d0"
+  integrity sha1-pPGjAcGi+ncB/NS5HvnSYgzyk9A=
+
+esbuild-windows-64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-windows-64/-/esbuild-windows-64-0.15.12.tgz#bc2b467541744d653be4fe64eaa9b0dbbf8e07f6"
+  integrity sha1-vCtGdUF0TWU75P5k6qmw27+OB/Y=
+
+esbuild-windows-arm64@0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.12.tgz#9a7266404334a86be800957eaee9aef94c3df328"
+  integrity sha1-mnJmQEM0qGvoAJV+rumu+Uw98yg=
+
+esbuild@^0.15.12:
+  version "0.15.12"
+  resolved "https://pkgs.dev.azure.com/napdigital/NegoManager/_packaging/npmregistry/npm/registry/esbuild/-/esbuild-0.15.12.tgz#6c8e22d6d3b7430d165c33848298d3fc9a1f251c"
+  integrity sha1-bI4i1tO3Qw0WXDOEgpjT/JofJRw=
+  optionalDependencies:
+    "@esbuild/android-arm" "0.15.12"
+    "@esbuild/linux-loong64" "0.15.12"
+    esbuild-android-64 "0.15.12"
+    esbuild-android-arm64 "0.15.12"
+    esbuild-darwin-64 "0.15.12"
+    esbuild-darwin-arm64 "0.15.12"
+    esbuild-freebsd-64 "0.15.12"
+    esbuild-freebsd-arm64 "0.15.12"
+    esbuild-linux-32 "0.15.12"
+    esbuild-linux-64 "0.15.12"
+    esbuild-linux-arm "0.15.12"
+    esbuild-linux-arm64 "0.15.12"
+    esbuild-linux-mips64le "0.15.12"
+    esbuild-linux-ppc64le "0.15.12"
+    esbuild-linux-riscv64 "0.15.12"
+    esbuild-linux-s390x "0.15.12"
+    esbuild-netbsd-64 "0.15.12"
+    esbuild-openbsd-64 "0.15.12"
+    esbuild-sunos-64 "0.15.12"
+    esbuild-windows-32 "0.15.12"
+    esbuild-windows-64 "0.15.12"
+    esbuild-windows-arm64 "0.15.12"
 
 esbuild@^0.8.53:
   version "0.8.56"
