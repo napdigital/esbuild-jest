@@ -48,7 +48,7 @@ const createTransformer = (options?: Options) => ({
       ...(options?.jsxFragment ? { jsxFragment: options.jsxFragment }: {}),
       ...sourcemaps,
       supported: {
-        'dynamic-import': opts.supportsDynamicImport ?? false,
+        'dynamic-import': opts?.supportsDynamicImport ?? false,
       },
     })
   

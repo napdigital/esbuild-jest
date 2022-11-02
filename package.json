@@ -1,6 +1,6 @@
 {
   "name": "napdigital-esbuild-jest",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Jest plugin to use esbuild for transformation",
   "main": "esbuild-jest.js",
   "module": "esbuild-jest.es.js",
