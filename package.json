@@ -1,6 +1,6 @@
 {
   "name": "napdigital-esbuild-jest",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Jest plugin to use esbuild for transformation",
   "main": "esbuild-jest.js",
   "module": "esbuild-jest.es.js",
@@ -12,21 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aelbore/esbuild-jest.git"
+    "url": "git+https://github.com/napdigital/esbuild-jest.git"
   },
   "keywords": [
     "esbuild",
     "jest",
     "test"
   ],
-  "author": "Arjay Elbore <aelbore.sg@gmail.com>",
+  "author": "Arjay Elbore <aelbore.sg@gmail.com> + Lucas Manzke <manzke@nap-digital.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aelbore/esbuild-jest/issues"
+    "url": "https://github.com/napdigital/esbuild-jest/issues"
   },
-  "homepage": "https://github.com/aelbore/esbuild-jest#readme",
+  "homepage": "https://github.com/napdigital/esbuild-jest#readme",
   "peerDependencies": {
-    "esbuild": ">=0.9.3"
+    "esbuild": ">=0.15.0"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.13.0",
