@@ -12,7 +12,8 @@ export default {
         delete pkg.devDependencies
         await Promise.all([ 
           fs.promises.writeFile('./dist/package.json', JSON.stringify(pkg, null, 2)),
-          fs.promises.copyFile('./README.md', './dist/README.md')
+          fs.promises.copyFile('./README.md', './dist/README.md'),
+          fs.promises.copyFile('./.npmrc', './dist/.npmrc')
         ])
       }
     },
