@@ -40,8 +40,8 @@
     "aria-build": "^0.7.3",
     "aria-fs": "^0.7.3",
     "esbuild": "^0.15.12",
-    "jest": "^26.6.3",
-    "jest-config": "^26.6.3",
+    "jest": "^29.2.2",
+    "jest-config": "^29.2.2",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -51,7 +51,7 @@
   "dependencies": {
     "@babel/core": "^7.13.10",
     "@babel/plugin-transform-modules-commonjs": "^7.13.8",
-    "babel-jest": "^26.6.3"
+    "babel-jest": "^29.2.2"
   },
   "babel": {
     "presets": [
