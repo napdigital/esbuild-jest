@@ -46,7 +46,10 @@ const createTransformer = (options?: Options) => ({
       target: options?.target || 'es2018',
       ...(options?.jsxFactory ? { jsxFactory: options.jsxFactory }: {}),
       ...(options?.jsxFragment ? { jsxFragment: options.jsxFragment }: {}),
-      ...sourcemaps
+      ...sourcemaps,
+      supported: {
+        'dynamic-import': opts.supportsDynamicImport ?? false,
+      },
     })
   
     let { map, code } = result;
